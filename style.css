@@ -1,0 +1,336 @@
+
+body, html {
+    height: 100%;
+  }
+  * {box-sizing:border-box}
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+ 
+  }
+
+  header {
+    background-color: rgb(42, 138, 202);
+  }
+
+.gif{
+  width: 400px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  width: 50%;
+}
+.h1 {
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, rgb(42, 138, 202) 40%, #f7f0eb 100%);
+}
+
+
+.card_text {
+  color: #030303;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #247881;
+  --color-2: #43919b;
+  --color-3: #30aadd;
+}
+
+.title-word-2 {
+  --color-1: #00ffc6;
+  --color-2: #fc5404;
+  --color-3: #f9b208;
+}
+
+.title-word-3 {
+  --color-1: #fc5404;
+  --color-2: #30aadd;
+  --color-3: #fc5404;
+}
+
+.title-word-4 {
+  --color-1: #43919b;
+  --color-2: #247881;
+  --color-3: #30aadd;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+
+  .omafs {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 17px;
+     text-align: center;
+     color: #4a79af;
+     margin: 70px;
+  }
+  
+  .parallax { 
+    /* The image used */
+    background-image: url("billeder/IMG_4468.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  :after,
+  :before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .layout {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+  
+  .knaplayout {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .ikon {
+      margin: 15px 0 0 15px;
+  }
+  
+  .ikon:hover {
+      opacity: 0.7;
+      cursor: pointer;
+  }
+  
+  .video {
+      height: 400px;
+      margin-bottom: 7%;
+  }
+  
+     .parallax-two { 
+           /* The image used */
+    background-image: url("billeder/IMG_4495.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+  .parallax-three { 
+    /* The image used */
+    background-image: url("billeder/IMG_4539.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  .frivilligtekst {
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    text-align: center;
+  }
+
+  .frivilligbillede {
+   width: 120px;
+   height: 120px;
+   
+  }
+
+
+  footer {
+    background-color: rgb(42, 138, 202);
+  }
+
+  .Some {
+    width: 80px;
+  }
+
+  .flex-container {
+    height: 120px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .footitem {
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    display: flex;
+  }
+
+.footer-wrap {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.clearbox {
+  width: 100%;
+  display: block;
+  height: 1px;
+  clear: both;
+}
+
